@@ -3,7 +3,7 @@
 The editor can be resized horizontally.
 
 ```html
-<app-ngx-editor resizer="basic"></app-ngx-editor>
+<app-ngx-editor-tmm resizer="basic"></app-ngx-editor-tmm>
 ```
 
 ## Type

@@ -1,11 +1,15 @@
 module.exports = {
-  extends: 'airbnb-base',
-  parserOptions: {
-    sourceType: 'script'
-  },
-  rules: {
-    'no-console': 'off',
-    'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
-    'comma-dangle': ['error', 'never']
-  }
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018
+    },
+    "rules": {
+    }
 };

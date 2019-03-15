@@ -5,7 +5,7 @@ The Configuration can be provided using `config` property
 ## Usage
 
 ```HTML
-<app-ngx-editor [config]="editorConfig" [(ngModel)]="htmlContent"></app-ngx-editor>
+<app-ngx-editor-tmm [config]="editorConfig" [(ngModel)]="htmlContent"></app-ngx-editor-tmm>
 ```
 
 ### Default Configuration
