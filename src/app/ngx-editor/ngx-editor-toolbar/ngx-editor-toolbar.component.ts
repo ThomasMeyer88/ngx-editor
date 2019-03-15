@@ -76,6 +76,7 @@ export class NgxEditorToolbarComponent implements OnInit {
    */
   triggerCommand(command: string): void {
     this.execute.emit(command);
+    console.log(this.execute.emit(command));
   }
 
   /**

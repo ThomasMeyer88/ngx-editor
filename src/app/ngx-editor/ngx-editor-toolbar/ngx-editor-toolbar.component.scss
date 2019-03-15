@@ -32,6 +32,10 @@
         transition: 0.2s ease;
       }
 
+      &:active {
+        background-color: lightslategrey;
+      }
+
       &:focus,
       &.focus {
         outline: 0;
